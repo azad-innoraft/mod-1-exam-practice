@@ -257,6 +257,12 @@ a.cta-dark-green {
     color: var(--white);
 }
 
+.hero-cta-btns>a:first-child {
+    color: var(--bg-green);
+    font-weight: 600;
+    margin-right: 16px;
+}
+
 
 
 @media (min-width: 576px) {
