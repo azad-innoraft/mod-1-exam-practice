@@ -90,6 +90,7 @@ a {
 
 .promotion-content i {
     color: var(--dark-green);
+    cursor: pointer;
 }
 
 .navbar {
