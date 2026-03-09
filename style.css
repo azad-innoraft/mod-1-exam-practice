@@ -175,12 +175,16 @@ a.cta-dark-green {
     position: absolute;
 }
 
-.hero-title>p:nth-child(2) {
+.hero-title span {
+    display: block;
+}
+
+.hero-title>span:nth-child(2) {
     text-align: center;
     padding-left: 72px;
 }
 
-.hero-title>p:nth-child(3) {
+.hero-title>span:nth-child(3) {
     text-align: end;
     padding-right: 20px;
 }

@@ -132,11 +132,7 @@
 }
 
 .feature-content-2 {
-    /* border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px; */
     border-radius: 15px;
-    /* clip-path: url(#right-grid); */
 }
 
 .feature-2 svg,
