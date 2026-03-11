@@ -32,7 +32,7 @@ html {
 }
 
 @font-face {
-    font-family: "WorkSans";
+    font-family: "WorkSans"; 
     src: url(./fonts/WorkSans-Medium.woff) format("woff");
     font-weight: 500;
     font-display: swap;
@@ -46,7 +46,7 @@ html {
 }
 
 body {
-    font-family: "WorkSans", monospace;
+    font-family: "WorkSans", sans-serif;
 }
 
 li {
