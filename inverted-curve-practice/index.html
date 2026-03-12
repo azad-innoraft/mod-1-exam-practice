@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      background-color: black;
+    }
+
+    span {
+      background-color: lightgreen;
+      display: block;
+      width: fit-content;
+      border-radius: 20px;
+      font-size: 7rem;
+      font-weight: 700;
+      padding: 10px 14px;
+    }
+
+    .span1 {
+      border-bottom-right-radius: 0;
+    }
+
+    h1 {
+      width: 1240px;
+      margin: 0 auto;
+    }
+
+    .span2 {
+      margin: auto;
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+      border-top-left-radius: 0;
+      position: relative;
+    }
+
+    .span3 {
+      border-top-left-radius: 0;
+      margin-left: auto;
+      position: relative;
+    }
+
+
+    .span2::before,
+    .span3::before {
+      content: "";
+      height: 25px;
+      aspect-ratio: 1;
+      position: absolute;
+      top: 0;
+      left: -25px;
+      background: lightgreen;
+      clip-path: path("M 0,0 L 25,0 L 25,25 Q 25,0 0,0 Z");
+    }
+
+    .span2::after {
+      content: "";
+      height: 25px;
+      aspect-ratio: 1;
+      position: absolute;
+      background: lightgreen;
+      clip-path: path("M 0,0 L 0,25 L 25,25 Q 0,25 0,0 Z");
+      bottom: 0;
+      right: -25px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>
+    <span class="span1">Business intelligent</span>
+    <span class="span2">build around</span>
+    <span class="span3">data items</span>
+  </h1>
+</body>
+
+</html>
